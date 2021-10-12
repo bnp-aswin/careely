@@ -1,0 +1,27 @@
+.header{
+    .navbar{
+        .navbar-nav{
+            .nav-item{
+                font-weight: 700;
+                margin: 0px 20px;
+                .contact-us{
+                    border: 2px solid $primary-color;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 975px){
+    .header{
+        .navbar{
+            .navbar-nav{
+                .nav-item{
+                    .contact-us{
+                        border:none;
+                    }
+                }
+            }
+        }
+    }
+}
