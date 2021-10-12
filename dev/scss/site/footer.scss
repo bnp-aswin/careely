@@ -1,0 +1,22 @@
+.footer{
+    .fa-facebook ,.fa-twitter{
+        padding: 10px;
+        border-radius: 25px;
+        color: white;
+    }
+    .fa-facebook{
+        background-color: #3b5998;
+        &:hover{
+            color: #3b5998;
+            background-color: white;
+        }
+
+    }
+    .fa-twitter{
+        background-color:#1DA1F2;
+        &:hover{
+            color: #1DA1F2;
+            background-color: white;
+        }
+    }
+}
