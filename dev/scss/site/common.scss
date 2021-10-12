@@ -13,3 +13,52 @@ body{
         margin: 0;
     }
 }
+.xx-text{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.xl-text{
+    font-size: 38px;
+    font-weight: 700;
+
+}
+.highlight-font{
+    color: $primary-color;
+}
+
+.primary-btn{
+    background-color: $primary-color;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    &:hover{
+        color: $primary-color;
+        background-color:lighten($primary-color,22%);
+    }
+    &:active{
+        outline: none;
+        box-shadow: none;
+    }
+    &:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    
+}
+.card{
+    border: none;
+    border-radius: 5px;
+    .fas{
+        color:$primary-color;
+    }
+    .title{
+        font-weight: 800;
+    }
+    .description{
+        line-height: 1.8;
+    }
+}

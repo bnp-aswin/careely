@@ -1,0 +1,19 @@
+.who-we-are{
+    margin-bottom: 100px;
+    .intro{
+        .description{
+            line-height: 2;
+            padding:0;
+        }
+        .primary-btn{
+            padding: 10px 20px;
+        }
+     }
+    
+    
+}
+@media screen and (max-width: 768px){
+    .who-we-are{
+    margin-bottom: 50px;
+    }
+}
