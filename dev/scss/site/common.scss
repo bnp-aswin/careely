@@ -23,7 +23,7 @@ body{
     font-weight: 700;
 
 }
-.highlight-font{
+.highlight-text{
     color: $primary-color;
 }
 
@@ -37,7 +37,7 @@ body{
     color: white;
     &:hover{
         color: $primary-color;
-        background-color:lighten($primary-color,22%);
+        background-color:lighten($primary-color,25%);
     }
     &:active{
         outline: none;
