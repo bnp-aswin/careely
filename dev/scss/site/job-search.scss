@@ -1,23 +1,15 @@
 .job-search {
-    margin-bottom: 100px;
+    margin-bottom: clamp(60px, 10vw, 100px);
 
     .card {
-        border: none;
-
-        .description {
-            text-align: right;
-            margin: 16px 0 0;
-        }
          input[type=text],
          .form-select {
              border: none;
              background-color: $primary-bg;
+             height: 45px;
              &:focus{
                  box-shadow: none;
              }
-         }
-         .form-check-label{
-            margin-left: 10px;
          }
          input[type=checkbox] {
              border:none;
@@ -28,11 +20,5 @@
                  box-shadow: none;
              }
          }
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .job-search {
-        margin-bottom: 100px;
     }
 }

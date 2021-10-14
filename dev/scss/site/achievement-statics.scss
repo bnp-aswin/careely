@@ -1,26 +1,21 @@
 .achievement-statics{
-    margin-bottom: 100px;
+    margin-bottom: clamp(60px, 10vw, 100px);
     .container{
         background-color: $primary-color;
         color: white;
         border-radius: 5px;
         .content{
             .count{
-                font-size: 46px;
+                font-size: clamp(30px, 5vw, 46px);
                 font-weight: 500;
             }
-            .tilte{
+            .title{
                 font-size: 18px;
-                font-weight: 400;
-                text-transform: uppercase;
+                // font-weight: 400;
+                // text-transform: uppercase;
                 margin: 0;
             }
         }
     }
-}
-@media screen and (max-width: 768px){
-    .achievement-statics{
-        margin-bottom: 50px;
-    }    
 }
     

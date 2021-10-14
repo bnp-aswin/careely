@@ -1,5 +1,5 @@
 .who-we-are{
-    margin-bottom: 100px;
+    margin-bottom: clamp(60px, 10vw, 100px);
     .intro{
         .description{
             line-height: 2;
@@ -11,9 +11,4 @@
      }
     
     
-}
-@media screen and (max-width: 768px){
-    .who-we-are{
-    margin-bottom: 50px;
-    }
 }

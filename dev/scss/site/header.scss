@@ -2,7 +2,6 @@
     .navbar{
         .navbar-nav{
             .nav-item{
-                font-size: 16px;
                 font-weight: 700;
                 margin: 0px 20px;
                 .nav-link{
@@ -13,7 +12,7 @@
                 }
                 .contact-us{
                     border: 2px solid $primary-color;
-                    border-radius: 100px;
+                    border-radius: 50px;
                 }
             }
         }

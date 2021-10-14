@@ -1,5 +1,5 @@
 .current-opening{
-    margin-bottom: 100px;
+    margin-bottom: clamp(60px, 10vw, 100px);
     .primary-btn:not(.view-all-btn){
         background-color:lighten($primary-color, 30%);
         color: $primary-color;
